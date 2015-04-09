@@ -1,0 +1,10 @@
+framework module UXFramework {
+  umbrella header "UXFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module UXFramework.Swift {
+    header "UXFramework-Swift.h"
+}

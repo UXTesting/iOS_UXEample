@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         // Override point for customization after application launch.
         
-        UXTestingManager.sharedInstance.appKey="z8OhQrbvEu3f_cR12a46rg"
+        UXTestingManager.sharedInstance.appKey=""
 
         return true
     }

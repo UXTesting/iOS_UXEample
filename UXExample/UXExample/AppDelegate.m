@@ -26,7 +26,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     // Set your app key here
-    [[UXTestingManager sharedInstance] setAppKey:@"GCSbMEUlEdi-nZvgTRRDOQ"];
+    [[UXTestingManager sharedInstance] setAppKey:@"YOUR_APP_KEY"];
     
     // Set to false: Tester mode, user "shake to start recording.
     // Set to true:  Developers embedded start() and stop() for recording.

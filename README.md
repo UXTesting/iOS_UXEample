@@ -4,6 +4,9 @@ UXTesting iOS example project.
 
 <br>
 
+# Demo
+
+[![Demo UXTesting](http://share.gifyoutube.com/KzM3WW.gif)](https://www.youtube.com/watch?v=o56_SBfbk3Q)
 
 # How to use
 
@@ -21,7 +24,7 @@ UXTesting iOS example project.
 
 4. Shake to end your recording. 
 
-5. Go to UXTesting website to view the results with your account.
+5. Go to UXTesting website > Apps > Your App > Videos to view the results with your account.
 
 <br>
 

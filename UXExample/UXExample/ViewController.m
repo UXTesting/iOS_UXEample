@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <UXFramework/UXFramework.h>
-
+#import <UXTesting/UXTesting.h>
 @interface ViewController () <CruiserNavigationDelegate>
 
 @end

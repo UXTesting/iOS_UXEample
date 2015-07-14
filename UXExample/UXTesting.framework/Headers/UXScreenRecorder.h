@@ -10,28 +10,33 @@
 #import <UIKit/UIKit.h>
 
 typedef void(^VIDEOBLOCK)(NSData* videoData,int videoLength);
+typedef void(^UXBlock)(void);
 
-@interface ScreenRecManager : NSObject
+@interface UXScreenRecorder : NSObject
 
-@property (nonatomic,readwrite) BOOL isHiddingMode;
 @property (nonatomic,readwrite) BOOL isRecording;
+@property (nonatomic,readwrite) BOOL isBackground;
 @property (nonatomic,readwrite) int currentSecond;
 @property (nonatomic,readwrite) int insertFrames;
 @property (nonatomic,strong) NSArray *remainVideoSegementPath;
 @property (nonatomic,readwrite) int limitSecond;
 @property (nonatomic,strong) NSArray *currentPointArray;
 
+
 + (id)sharedInstance;
--(void)setToHiddingMode;
--(void)setUnHiddingMode;
 -(void)assignLimitSecond:(int)integer;
--(void)mergeRemainingVideoWithComplete:(VIDEOBLOCK)block;
--(BOOL)checkIfThereAreRemainingVideosSegments;
+-(void)mergeRemainingVideoWithCaseID:(NSString*)caseID withComplete:(UXBlock)block;
+//-(UXFileStatus)checkStatusInCaseID:(NSString*)caseID;
+//-(BOOL)checkIfThereAreRemainingVideosSegmentsWithCaseID:(NSString*)caseID;
 -(void)tempStop;
--(void)tempStart;
 -(void)start;
--(void)stop;
--(void)stop:(VIDEOBLOCK)block;
+-(void)stop:(UXBlock)block;
+
+-(void)pause;
+-(void)resume;
+
+
+-(UIImage*)screenCapture;
 //-(NSString*)stopWithVideoResultPath;
 
 

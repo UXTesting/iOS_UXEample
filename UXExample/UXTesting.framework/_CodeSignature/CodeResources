@@ -4,100 +4,116 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/ScreenRecManager.h</key>
+		<key>Headers/DTDeviceInfo.h</key>
 		<data>
-		bLO5m8sQdoY/Y4wNfq1rCXQzrSU=
+		Ad71cCVXLQXZMnhwZVcpXq6KBe8=
 		</data>
-		<key>Headers/SmudgeContainerLayer.h</key>
+		<key>Headers/UXMessageView.h</key>
 		<data>
-		ZN/7b5Mv/2Sn9uIz2vepu0iV6gk=
+		5UBnaF9k4Au9sVBz899WnnqGjAE=
 		</data>
-		<key>Headers/SmudgeLayer.h</key>
+		<key>Headers/UXRecordingRedDot.h</key>
 		<data>
-		wKlyqK1+jLtR3IUOU/3LjnR9nU8=
+		lQSqe5/kh6wNfpimc/brH1ENalk=
 		</data>
-		<key>Headers/UXFramework-Swift.h</key>
+		<key>Headers/UXRecordingView.h</key>
 		<data>
-		D+vtWuE8MXm0hvNQzDLJi+zHLQ0=
+		zE7ATYzmPl4cRN6pxDB6siMbMRs=
 		</data>
-		<key>Headers/UXFramework.h</key>
+		<key>Headers/UXScreenRecorder.h</key>
 		<data>
-		uDd7WMGWm27yMCsaC9K0PBVupWI=
+		YuD/4Y1gf87gIdqjFK9AD2CwI3Q=
+		</data>
+		<key>Headers/UXSmudgeContainerLayer.h</key>
+		<data>
+		4w5rqN7xA04uYeBY0C3CMCRpXF0=
+		</data>
+		<key>Headers/UXSmudgeLayer.h</key>
+		<data>
+		aS46I4jFiNq49nphYUYuto8ccaQ=
+		</data>
+		<key>Headers/UXTesting.h</key>
+		<data>
+		8bPpX8lAMTMz2a5Mw/dx4q++Z0M=
+		</data>
+		<key>Headers/UXTestingCamera.h</key>
+		<data>
+		ALXG+UcxO1JNJqTG7Xcj2ryubFo=
+		</data>
+		<key>Headers/UXTestingManager.h</key>
+		<data>
+		MYHntxfoDx9V7ZIVJ6JqA+w+05s=
+		</data>
+		<key>Headers/UXTestingService.h</key>
+		<data>
+		0+bY3IOTTlqnM0imxZQe1maclZQ=
+		</data>
+		<key>Headers/UXTestingWindow.h</key>
+		<data>
+		QdRgdM4CN61YeZTls8jrDndItsU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3HjVb1roSwKaoI1t7yufgTxdnvw=
-		</data>
-		<key>Modules/UXFramework.swiftmodule/arm.swiftdoc</key>
-		<data>
-		/8O73ftPDvyOPeCwnR92xY2bgMs=
-		</data>
-		<key>Modules/UXFramework.swiftmodule/arm.swiftmodule</key>
-		<data>
-		slNzB4/OSAkRnwrkDtm4fvoC3Mk=
-		</data>
-		<key>Modules/UXFramework.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		L584Lp8eGr1x3SZnwx7Vy5pwEBs=
-		</data>
-		<key>Modules/UXFramework.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		JJPaxkvNZyHnmqFHl+2qpr7cjBQ=
+		lMeM3hN7iWaYfWdkii+dAJQLnYE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		yFJn+n/grKiSLpG/ejt7Sh2CRf8=
-		</data>
-		<key>embedded.mobileprovision</key>
-		<data>
-		4LR/1/UrNVZsg1FEqJQPvBSyWTc=
+		VGhPZIayILVoj22bBEo3I4O/iEA=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/ScreenRecManager.h</key>
+		<key>Headers/DTDeviceInfo.h</key>
 		<data>
-		bLO5m8sQdoY/Y4wNfq1rCXQzrSU=
+		Ad71cCVXLQXZMnhwZVcpXq6KBe8=
 		</data>
-		<key>Headers/SmudgeContainerLayer.h</key>
+		<key>Headers/UXMessageView.h</key>
 		<data>
-		ZN/7b5Mv/2Sn9uIz2vepu0iV6gk=
+		5UBnaF9k4Au9sVBz899WnnqGjAE=
 		</data>
-		<key>Headers/SmudgeLayer.h</key>
+		<key>Headers/UXRecordingRedDot.h</key>
 		<data>
-		wKlyqK1+jLtR3IUOU/3LjnR9nU8=
+		lQSqe5/kh6wNfpimc/brH1ENalk=
 		</data>
-		<key>Headers/UXFramework-Swift.h</key>
+		<key>Headers/UXRecordingView.h</key>
 		<data>
-		D+vtWuE8MXm0hvNQzDLJi+zHLQ0=
+		zE7ATYzmPl4cRN6pxDB6siMbMRs=
 		</data>
-		<key>Headers/UXFramework.h</key>
+		<key>Headers/UXScreenRecorder.h</key>
 		<data>
-		uDd7WMGWm27yMCsaC9K0PBVupWI=
+		YuD/4Y1gf87gIdqjFK9AD2CwI3Q=
 		</data>
-		<key>Modules/UXFramework.swiftmodule/arm.swiftdoc</key>
+		<key>Headers/UXSmudgeContainerLayer.h</key>
 		<data>
-		/8O73ftPDvyOPeCwnR92xY2bgMs=
+		4w5rqN7xA04uYeBY0C3CMCRpXF0=
 		</data>
-		<key>Modules/UXFramework.swiftmodule/arm.swiftmodule</key>
+		<key>Headers/UXSmudgeLayer.h</key>
 		<data>
-		slNzB4/OSAkRnwrkDtm4fvoC3Mk=
+		aS46I4jFiNq49nphYUYuto8ccaQ=
 		</data>
-		<key>Modules/UXFramework.swiftmodule/arm64.swiftdoc</key>
+		<key>Headers/UXTesting.h</key>
 		<data>
-		L584Lp8eGr1x3SZnwx7Vy5pwEBs=
+		8bPpX8lAMTMz2a5Mw/dx4q++Z0M=
 		</data>
-		<key>Modules/UXFramework.swiftmodule/arm64.swiftmodule</key>
+		<key>Headers/UXTestingCamera.h</key>
 		<data>
-		JJPaxkvNZyHnmqFHl+2qpr7cjBQ=
+		ALXG+UcxO1JNJqTG7Xcj2ryubFo=
+		</data>
+		<key>Headers/UXTestingManager.h</key>
+		<data>
+		MYHntxfoDx9V7ZIVJ6JqA+w+05s=
+		</data>
+		<key>Headers/UXTestingService.h</key>
+		<data>
+		0+bY3IOTTlqnM0imxZQe1maclZQ=
+		</data>
+		<key>Headers/UXTestingWindow.h</key>
+		<data>
+		QdRgdM4CN61YeZTls8jrDndItsU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		yFJn+n/grKiSLpG/ejt7Sh2CRf8=
-		</data>
-		<key>embedded.mobileprovision</key>
-		<data>
-		4LR/1/UrNVZsg1FEqJQPvBSyWTc=
+		VGhPZIayILVoj22bBEo3I4O/iEA=
 		</data>
 	</dict>
 	<key>rules</key>

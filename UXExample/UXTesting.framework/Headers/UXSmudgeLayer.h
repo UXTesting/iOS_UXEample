@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SmudgeLayer : CAShapeLayer
+@interface UXSmudgeLayer : CAShapeLayer
 - (void)appear;
 - (void)disappear;
 - (void)updateWithTouch:(UITouch *)touch;
 @end
 
-@interface SmudgeLayer ()
+@interface UXSmudgeLayer ()
 
 @property CGPoint velocity;
 @property CGPoint previousPosition;

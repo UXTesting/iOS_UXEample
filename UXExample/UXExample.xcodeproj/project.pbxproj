@@ -57,8 +57,8 @@
 		630D7E781AF8C0C100C7C570 /* cruiser_icn_toolbar_web@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630D7E4A1AF8C0C100C7C570 /* cruiser_icn_toolbar_web@2x.png */; };
 		630D7E791AF8C0C100C7C570 /* cruiser_icn_toolbar_web@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630D7E4B1AF8C0C100C7C570 /* cruiser_icn_toolbar_web@3x.png */; };
 		630D7E7A1AF8C0C100C7C570 /* CruiserWebViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 630D7E4C1AF8C0C100C7C570 /* CruiserWebViewController.strings */; };
-		630D7E8E1AF8C2B700C7C570 /* UXFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630D7E8D1AF8C2B700C7C570 /* UXFramework.framework */; };
-		630D7E8F1AF8C2B700C7C570 /* UXFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 630D7E8D1AF8C2B700C7C570 /* UXFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		63DA3D751B54ECF300FCD245 /* UXTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DA3D741B54ECF300FCD245 /* UXTesting.framework */; };
+		63DA3D761B54ECF300FCD245 /* UXTesting.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63DA3D741B54ECF300FCD245 /* UXTesting.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +78,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				630D7E8F1AF8C2B700C7C570 /* UXFramework.framework in Embed Frameworks */,
+				63DA3D761B54ECF300FCD245 /* UXTesting.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +147,7 @@
 		630D7E4D1AF8C0C100C7C570 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/CruiserWebViewController.strings; sourceTree = "<group>"; };
 		630D7E4E1AF8C0C100C7C570 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CruiserWebViewController.strings; sourceTree = "<group>"; };
 		630D7E4F1AF8C0C100C7C570 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/CruiserWebViewController.strings; sourceTree = "<group>"; };
-		630D7E8D1AF8C2B700C7C570 /* UXFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UXFramework.framework; sourceTree = "<group>"; };
+		63DA3D741B54ECF300FCD245 /* UXTesting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UXTesting.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				630D7E8E1AF8C2B700C7C570 /* UXFramework.framework in Frameworks */,
+				63DA3D751B54ECF300FCD245 /* UXTesting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,7 +172,7 @@
 		630D7DEA1AF8BDB600C7C570 = {
 			isa = PBXGroup;
 			children = (
-				630D7E8D1AF8C2B700C7C570 /* UXFramework.framework */,
+				63DA3D741B54ECF300FCD245 /* UXTesting.framework */,
 				630D7DF51AF8BDB600C7C570 /* UXExample */,
 				630D7E0F1AF8BDB600C7C570 /* UXExampleTests */,
 				630D7DF41AF8BDB600C7C570 /* Products */,

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <UXFramework/UXFramework.h>
+#import <UXTesting/UXTesting.h>
 
 @interface AppDelegate ()
 
@@ -26,7 +26,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     // Set your app key here
-    [[UXTestingManager sharedInstance] setAppKey:@"YOUR_APP_KEY"];
+    [[UXTestingManager sharedInstance] setAppKey:<#YOUR_APP_KEY#>];
     
     // Set to false: Tester mode, user "shake to start recording.
     // Set to true:  Developers embedded start() and stop() for recording.
@@ -37,6 +37,8 @@
     // Set to true: Enable front cam recording.
     // Default value is false.
     [[UXTestingManager sharedInstance] setIsFrontCameraRecording:true];
+    
+    // That is all!  Shake to start your journey.
     
     return YES;
 }

@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SmudgeLayer.h"
+#import "UXSmudgeLayer.h"
 
-@interface SmudgeContainerLayer : CALayer
+@interface UXSmudgeContainerLayer : CALayer
 - (void)updateWithEvent:(UIEvent *)event;
 @end
 
-@interface SmudgeContainerLayer ()
+@interface UXSmudgeContainerLayer ()
 
 @property (readonly,nonatomic) NSMutableDictionary *touchSmudgeTable;
 

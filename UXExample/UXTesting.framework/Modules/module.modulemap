@@ -1,0 +1,6 @@
+framework module UXTesting {
+  umbrella header "UXTesting.h"
+
+  export *
+  module * { export * }
+}
